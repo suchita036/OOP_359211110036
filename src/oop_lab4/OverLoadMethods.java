@@ -4,16 +4,16 @@ package oop_lab4;
 //3.Method Overloading/Overload
 
 public class OverLoadMethods {
-    public static void A() {
+    public static void A(){
         System.out.println("Hello A1");
     }
 
-    public static void A(int x) {
+    public static void A(int x){
         System.out.println("Hello "+x);
     }
 
     public static void A(int x,int y){
-        System.out.println("Hello "+(x + y));
+        System.out.println("Hello "+(x+y));
     }
 
     public static void main (String[] args){
