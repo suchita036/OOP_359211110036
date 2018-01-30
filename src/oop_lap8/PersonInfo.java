@@ -2,7 +2,7 @@ package oop_lap8;
 
 public class PersonInfo {
     public static void main (String[] args) {
-        Student student =new Student(
+        Student student = new Student(
                 "1939900288581",
                 "Suchita",
                 "Fermale",
@@ -12,5 +12,15 @@ public class PersonInfo {
         System.out.println(student.toString());
 
         System.out.println(student.getName());
+    }
+    {
+        Employee employee=new Employee(
+               "1234",
+               "poiatkan",
+                "20000");
+        System.out.println(employee.toString());
+
+
+
     }
 }
