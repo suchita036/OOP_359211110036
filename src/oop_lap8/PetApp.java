@@ -1,7 +1,7 @@
 package oop_lap8;
 
 
-import oop_lap.cow;
+import oop_lap9.cow;
 
 public class PetApp {
     public static void main(String[] args) {

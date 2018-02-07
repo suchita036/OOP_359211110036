@@ -7,6 +7,7 @@ public class cow extends Pet {
         super(name, age);
     }
 
+
     @Override
     public void makeNoise() {
         System.out.println("More More !!!");
